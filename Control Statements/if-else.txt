@@ -1,0 +1,124 @@
+PROJECT 4
+📌 Problem Description
+
+Write a program to decide whether a user gets a Personal Loan based on:
+
+1️⃣ Age Condition
+
+Must be between 21 and 60.
+
+2️⃣ Income Condition
+
+Monthly income must be ₹25,000 or more.
+
+3️⃣ CIBIL Score
+
+Must be 700 or above (max = 900).
+
+4️⃣ Existing Loan Check
+
+If user already has an active loan:
+
+They need higher income (₹40,000+) to qualify.
+
+5️⃣ High Risk Cases
+
+If ANY of these happen → Loan Rejected Immediately:
+
+CIBIL < 550
+
+Income < 15,000
+
+Age < 18
+
+
+
+⭐ LEVEL 5 PROJECT — INSURANCE RISK ASSESSMENT SYSTEM (Enterprise-Level Logic)
+
+This system decides whether a user gets a Health Insurance Plan, and at what premium, based on multiple factors.
+
+This is how real insurance companies classify customers into Low, Medium, and High risk.
+
+📌 INPUTS
+
+User must enter:
+
+Age
+
+Smoker (yes/no)
+
+BMI (Body Mass Index)
+
+Any major disease? (yes/no)
+
+Daily exercise mins
+
+Alcohol consumption (yes/no)
+
+📌 RULES (Realistic & Complex)
+🔴 Immediate High-Risk (Auto Reject)
+
+If ANY is true:
+
+Age > 70
+
+BMI > 40
+
+Major disease = yes
+
+→ Insurance Rejected Immediately
+
+🟠 Medium Risk (Higher Premium)
+
+If any of the following:
+
+Age between 45–70
+
+BMI between 30–40
+
+Smoker = yes
+
+Alcohol = yes
+
+Exercise < 20 min/day
+
+→ Plan Approved, but Premium = High
+
+🟢 Low Risk (Normal Premium)
+
+All must be true:
+
+Age < 45
+
+Non-smoker
+
+BMI < 30
+
+No major disease
+
+Exercise ≥ 30 min/day
+
+→ Plan Approved, Premium = Normal
+
+⚠️ Special Case
+
+If:
+
+Age < 30
+
+BMI between 30–35
+
+Exercises 40+ min/day
+
+→ Approved with Discount
+(reason: young + compensating habits)
+
+🌟 Outputs You Must Print
+
+“Insurance Rejected — Reason: ___”
+
+“Approved — High Premium”
+
+“Approved — Normal Premium”
+
+“Approved — Discounted Premium”
