@@ -1,0 +1,16 @@
+| Topic                   | Explanation                                                            | Example                             |
+| ----------------------- | ---------------------------------------------------------------------- | ----------------------------------- |
+| **What is a Loop?**     | A loop is used to repeat a block of code multiple times automatically. | Repeat printing numbers 1–10        |
+| **Why Loops?**          | To avoid writing repeated code and make tasks faster & efficient.      | Printing 1000 numbers with 3 lines  |
+| **Types of Loops**      | Python has two loops: **for** loop and **while** loop.                 | —                                   |
+| **FOR Loop**            | Used when the number of repetitions is *known*.                        | `for i in range(5): print(i)`       |
+| **WHILE Loop**          | Used when repetitions are *unknown* and depend on condition.           | `while x < 5: print(x)`             |
+| **Range() Function**    | Generates a sequence of numbers for the loop.                          | `range(1, 6)` → 1 2 3 4 5           |
+| **Loop Variable**       | A temporary variable used inside loop to access each item.             | `for i in range(5)` → `i`           |
+| **Infinite Loop**       | A loop that never stops due to a condition always being true.          | `while True:`                       |
+| **Break**               | Immediately exits the loop.                                            | Stop loop on wrong PIN              |
+| **Continue**            | Skips current iteration and moves to next.                             | Skip printing even numbers          |
+| **Pass**                | Does nothing; used as a placeholder.                                   | `for x in nums: pass`               |
+| **Iterating Over List** | A loop can go through items in a list.                                 | `for v in ['a','b']: print(v)`      |
+| **Nested Loops**        | A loop inside another loop.                                            | Creating patterns                   |
+| **Real-Life Example**   | Repeating actions until a condition occurs.                            | Taking attendance (repeat 60 times) |
